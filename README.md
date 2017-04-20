@@ -1,4 +1,7 @@
-# api documentation for  [debug-logger (v0.4.1)](https://github.com/appscot/debug-logger)  [![npm package](https://img.shields.io/npm/v/npmdoc-debug-logger.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-debug-logger) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-debug-logger.svg)](https://travis-ci.org/npmdoc/node-npmdoc-debug-logger)
+# npmdoc-debug-logger
+
+#### api documentation for  debug-logger (v0.4.1)  [![npm package](https://img.shields.io/npm/v/npmdoc-debug-logger.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-debug-logger) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-debug-logger.svg)](https://travis-ci.org/npmdoc/node-npmdoc-debug-logger)
+
 #### A wrapper for visionmedia/debug logger, adding levels and colored output
 
 [![NPM](https://nodei.co/npm/debug-logger.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/debug-logger)
@@ -18,24 +21,14 @@
 ```json
 
 {
-    "author": {
-        "name": "Dario Marcelino"
-    },
-    "bugs": {
-        "url": "https://github.com/appscot/debug-logger/issues"
-    },
-    "dependencies": {
-        "debug": "^2.1.0"
-    },
+    "name": "debug-logger",
+    "version": "0.4.1",
     "description": "A wrapper for visionmedia/debug logger, adding levels and colored output",
-    "devDependencies": {},
-    "directories": {},
-    "dist": {
-        "shasum": "e33849c369e3cd361b50b299d71ca5224baa1ae1",
-        "tarball": "https://registry.npmjs.org/debug-logger/-/debug-logger-0.4.1.tgz"
+    "main": "debug-logger.js",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:appscot/debug-logger.git"
     },
-    "gitHead": "243988030d7102bdc945716687df61e30c157703",
-    "homepage": "https://github.com/appscot/debug-logger",
     "keywords": [
         "debug",
         "logger",
@@ -47,21 +40,13 @@
         "warn",
         "error"
     ],
-    "license": "MIT",
-    "main": "debug-logger.js",
-    "maintainers": [
-        {
-            "name": "appscot"
-        }
-    ],
-    "name": "debug-logger",
-    "optionalDependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "git+ssh://git@github.com/appscot/debug-logger.git"
+    "author": {
+        "name": "Dario Marcelino"
     },
-    "scripts": {},
-    "version": "0.4.1"
+    "license": "MIT",
+    "dependencies": {
+        "debug": "^2.1.0"
+    }
 }
 ```
 

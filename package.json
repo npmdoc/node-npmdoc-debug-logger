@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "api documentation for [debug-logger (v0.4.1)](https://github.com/appscot/debug-logger) [![npm package](https://img.shields.io/npm/v/npmdoc-debug-logger.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-debug-logger) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-debug-logger.svg)](https://travis-ci.org/npmdoc/node-npmdoc-debug-logger)",
+    "description": "#### api documentation for  debug-logger (v0.4.1)  [![npm package](https://img.shields.io/npm/v/npmdoc-debug-logger.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-debug-logger) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-debug-logger.svg)](https://travis-ci.org/npmdoc/node-npmdoc-debug-logger)",
     "devDependencies": {
         "debug-logger": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
@@ -35,5 +35,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "0.0.2"
 }
