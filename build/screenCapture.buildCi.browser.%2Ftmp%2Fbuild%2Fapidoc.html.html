@@ -47,7 +47,7 @@
 }
 </style>
 <h1>api documentation for
-    <a>debug-logger (v0.4.1)</a>
+    <a href="https://github.com/appscot/debug-logger">debug-logger (v0.4.1)</a>
 </h1>
 <h4>A wrapper for visionmedia/debug logger, adding levels and colored output</h4>
 <div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
@@ -962,21 +962,21 @@ if (log.debug.<span class="apidocCodeKeywordSpan">enabled</span>()) {
   return stream.write(util.format.apply(util, arguments) + '\n');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
+  };
 
-## Usage
-```javascript
-var log = require('debug-logger')('myapp');
+  levelLog(logger[levelName].color + levels[levelName].prefix + logger[levelName].reset + message + inspections);
+};
 
-log.trace("I'm a trace output");
-log.debug("I'm a debug output");
-log.<span class="apidocCodeKeywordSpan">log</span>("I'm a log output");
-log.info("I'm an info output");
-log.warn("I'm a warn output");
-log.error("I'm an error output");
-```
-![screenshot](https://raw.githubusercontent.com/wiki/appscot/debug-logger/ScreenShot.png)
+function logNewlineFn() {
+  if (streamSpy.lastCharacter !== '\n') {
+    vmDebug.<span class="apidocCodeKeywordSpan">log</span>('');
+  }
+  logFn.apply(logFn, arguments);
+};
 
-### Inspect error/object
+logger[levelName] = ensureNewlineEnabled ? logNewlineFn : logFn;
+logger[levelName].level = levels[levelName].level;
+logger[levelName].logger  = function(){ return levelLogger(); };
 ...</pre></li>
     </ul>
 

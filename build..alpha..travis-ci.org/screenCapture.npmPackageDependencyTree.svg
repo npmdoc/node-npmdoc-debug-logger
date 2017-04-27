@@ -5,7 +5,7 @@
 <tspan x="10" y="42"></tspan>
 <tspan x="10" y="58">node_modules</tspan>
 <tspan x="10" y="74">└─┬ debug-logger@0.4.1 </tspan>
-<tspan x="10" y="90">  └─┬ debug@2.6.4 </tspan>
+<tspan x="10" y="90">  └─┬ debug@2.6.5 </tspan>
 <tspan x="10" y="106">    └── ms@0.7.3</tspan>
 </text>
 </svg>
